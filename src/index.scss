@@ -1,0 +1,482 @@
+body{
+    font-size: 13px;
+    font-family: sans-serif,Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#indexes-block, #top30-block{
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-width: 5px;
+    margin: 30px;
+    /* position: fixed; */
+}
+#header-trinhdinhphuong{
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-width: 5px;
+    margin: 30px;
+}
+
+#header-trinhdinhphuong .header-left{
+    display: inline-block;
+    width: 35%;
+    padding-left: 30px;
+}
+
+#header-trinhdinhphuong .header-right{
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+#header-trinhdinhphuong .header-left-color{
+ color: #5D84C7;
+ padding-bottom: 10px;
+}
+
+#header-trinhdinhphuong .header-login-color{
+    color: #000000;
+    float: left;
+    margin-right: 20px;
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    letter-spacing: .7px;
+    padding: 0 8px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 2px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    background-color: #2196f3;
+    transition: background-color .35s ease;
+    cursor: pointer;
+}
+
+#header-trinhdinhphuong .header-signup-color{
+    color: #000000;
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    letter-spacing: .7px;
+    padding: 0 8px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 2px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    background-color: #2196f3;
+    transition: background-color .35s ease;
+    cursor: pointer;
+}
+
+#top30-block{
+    margin-top: 30px;
+}
+.indexes-table, .top30-table {
+    display: inline-block;
+    border-width: 5px;
+}
+
+.TVChartContainer, .TokenChartContainer {
+	display: inline-block;
+    width: 100%;
+    height: 800px;
+    vertical-align: top;
+}
+div{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    float: left;
+    display: block;
+}
+.temp{
+    display: none;
+}
+
+.App{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: #fcfcfc;
+}
+.App .widgetbar-tabs .active{
+    background: #077ECC;
+}
+.App .widgetbar-tabs{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 100%;
+    background: #09A4FF;
+    display: none;
+}
+.App .home-container{
+    position: relative;
+    float: left;
+    width: calc(100%);
+}
+.App .home-container .header-bar-1 .logo-slogan h2{
+    width: 100%;
+    color: #0252d3;
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.App .home-container .header-bar-1 .logo-slogan h1{
+    color:#0044b2;
+    text-align: left;
+    width: 100%;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 0px;
+}
+.App .home-container .header-bar-1 .logo-slogan > div{
+    margin-top: 10px;
+}
+.App .home-container .header-bar-1 .logo-slogan{
+    text-align: center;
+    position: relative;
+    float: left;
+    padding: 5px 0px;
+}
+
+.App .home-container .search-column .search-button:hover{
+    background: #9e9d9d;
+}
+.App .home-container .search-column .search-button{
+    position: relative;
+    float: right;
+    height: 40px;
+    padding: 0px;
+    margin: auto 0;
+    width: 40px;
+    padding: 8px;
+    border-radius: 0px 10px 10px 0px !important;
+    cursor: pointer;
+}
+.App .home-container .search-box input[type=text]{
+    width: calc(100% - 40px);
+    border: none;
+    position: relative;
+    float: left;
+    height: 40px !important;
+    background: #80808042;
+    padding: 0px 10px;
+    border-radius: 10px 0px 0px 10px;
+    color: white;
+}
+.App .home-container .search-box{
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    text-align: center;
+    height: 40px;
+    margin-right: 10px;
+}
+.App .home-container .search-column{
+    position: relative;
+    float: right;
+    padding-left: 0px;
+    padding-right: 80px;
+}
+.App .home-container .header-bar-1{
+    padding: 10px;
+    width: 100%;
+    background: #f8f8f8;
+}
+.header-bar-2{
+    background: #f8f8f8;
+}
+.header-bar-2 .right-div{
+    padding: 5px 0px;
+}
+.header-bar-2 .left-div{
+    height: 70px;
+}
+.timeline-div{
+    padding: 0px;
+}
+.timeline-div  .nav-tabs .active{
+    font-weight: bold;
+    background: #f1f1f1 !important;
+    color:#0a53ff !important;
+}
+.timeline-div   .tab-pane{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.timeline-div   .App-clock .otherDiv{
+    /*color: #f1f1f1a1;
+    padding: 5px 10px;
+    text-align: left;
+    background: #f1f1f1a1;
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    transition: 3s;
+    opacity: 0;*/
+    transition: 3s;
+}
+.timeline-div   .App-clock .hereDiv{
+    color: blue;
+    padding: 0px 10px;
+}
+.timeline-div   .App-clock .hereDiv-Left{
+    position: relative;
+    float: left;
+    text-align: left;
+}
+.timeline-div   .App-clock .hereDiv-Right{
+    position: relative !important;
+    float: right;
+}
+.timeline-div .App-clock{
+    position: relative;
+    float: left;
+    line-height: 22px;
+    width: 100%;
+    padding-top: 10px;
+    height: 100px;
+}
+.timeline-div .tab-content{
+    width: 100%;
+    background: #f1f1f1a1;
+    text-align: center;
+}
+.timeline-div  .nav-link.active{
+    border: none;
+    margin-bottom: -2px;
+    z-index: 99;
+}
+
+.timeline-div  .nav-item{
+    padding: 3px;
+    color: #3a3a3a;
+    width: 4%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+.timeline-div  .nav-item:first-child{
+    color: blue !important;
+}
+
+.timeline-div  .nav-tabs{
+    border: none !important;
+}
+.timeline-div  .nav-item + .nav-item{
+    border-left: 1px solid #bebebe;
+}
+
+.timeline-div .RealTimeDot{
+    position: absolute;
+    width: 2px;
+    height: 50px;
+    background: #87d687;
+    top: -5px;
+    z-index: 99;
+}
+
+.home-user-div .dropdown-menu{
+    box-shadow: 0 2px 4px 0 rgba(107,121,136,.4);
+    background: #f3f3f3;
+}
+.home-user-div{
+    padding: 0 10px;
+}
+.home-button{
+    margin-right: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: silver;
+}
+.logo-slogan span{
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: silver;
+}
+.home-button-active{
+    color: gray;
+    text-decoration: underline;
+}
+.logo-slogan span{
+    line-height: 34px;
+}
+/*moockup hub*/
+.mookup-hub > div{
+    padding: 0px;
+}
+/*moockup hub :: end*/
+/*moockup tab*/
+.moockup-tab .nav-tabs{
+    border-bottom: none; 
+}
+.moockup-tab .nav-item{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.moockup-tab .nav-item{
+    line-height: 1em;
+}
+.moockup-tab .nav-item{
+    margin-bottom: -1px;
+    margin-right: 10px !important;
+    margin: 0 5px 5px 0;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px rgba(0,0,0,0.2);
+    color: #808080;
+    opacity: 0.8;
+}
+.moockup-tab .nav-tabs .nav-link.active{
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    color: #2b82d9;
+    opacity: 1;
+}
+.moockup-tab{
+    margin-top: 30px;
+    background: #005546;
+    padding: 10px;
+}
+.moockup-tab > .tab-content .tab-pane{
+    width: 100%;
+}
+.moockup-tab > .tab-content{
+    width: 100%;
+    padding: 10px;
+    background: white;
+}
+/*moockup tab :: end*/
+/*login-register dialog*/
+
+.modal-header .close {
+    padding: unset;
+    margin: 0px;
+}
+.LoginDialog .modal-dialog .modal-header .close {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+.LoginDialog  .modal-dialog .modal-content .form-group{
+    width: 100%;
+}
+.LoginDialog  .modal-dialog .modal-content .modal-title a{
+    font-size: 15px;
+}
+.LoginDialog  .modal-dialog .modal-content .modal-title{
+    line-height: 1em;
+}
+.LoginDialog  .modal-content label[for="username"],.LoginDialog .modal-content label[for="password"], .LoginDialog .modal-content label[for="firstname"],.LoginDialog .modal-content label[for="lastname"],.LoginDialog .modal-content label[for="email"],.LoginDialog .modal-content label[for="gender"],.LoginDialog .modal-content label[for="mobile"]{
+    display: none;
+}
+.LoginDialog  .modal-dialog .modal-content{
+    background: #fff;
+}
+.LoginDialog  .modal-dialog .tab-content{
+    padding: 20px 10px;
+    border-top: 1px solid #104d8b;
+}
+.LoginDialog  .modal-dialog .nav-item {
+    margin-bottom: -1px;
+    margin-right: 10px !important;
+    margin: 0 5px 5px 0;
+    border-radius: 5px;
+    background: #fff;
+    color: #808080;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.LoginDialog  .modal-dialog .nav-tabs .nav-link.active{
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    color: #104d8b;    
+    opacity: 1;
+    border: none !important;
+}
+.LoginDialog  .modal-dialog .help-block{
+    color: red;
+    font-size: 15px;
+    font-weight: 300;
+}
+.LoginDialog  .modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+}
+/*login-register dialog :: end*/
+.btn-outline-primary{
+    color: black;
+    border: none;
+}
+.Profile {
+    padding: 0 20px;
+    display: flex;
+    margin: 0 226px;
+    position: relative;
+    .avatar {
+        width: 150px;
+        height: 150px;
+    }
+    .displayName {
+        margin: 0 15px 0 0;
+        font-size: 32px;
+        font-weight: bolder
+    }
+}
+.dialogBox3 {
+    .modal-content {
+        width: 242%;
+        position: relative;
+        margin: 6px 162px;
+        .react-datepicker{
+            width: 20.7%;
+            &__current-month {
+                margin: 0px 77px;
+            }
+            &__day-names {
+                margin: 0 6px;
+            }
+        }
+    }
+}
+.widgetbar-footer > div{
+    float: right;
+    
+}
+
+.widgetbar-footer > div.copyright{
+    float: left;
+    color: silver;
+}
+.widgetbar-footer > div.copyright:hover{
+    color: black;
+}
+.widgetbar-footer{
+    padding: 7px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}

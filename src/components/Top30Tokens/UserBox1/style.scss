@@ -1,0 +1,43 @@
+.react-confirm-alert-overlay{
+	background: rgba(255, 255, 255, 0.58) !important;
+}
+.react-confirm-alert-body{
+	width: 30vw  !important;
+}
+.react-confirm-alert-blur {
+    filter: blur(0.2px)  !important;
+    -webkit-filter: blur(0.2px)  !important;
+}
+.ConfirmDialogBody{
+	font-size: 15px;
+	padding: 20px;
+	border-top: 1px solid gray;
+	width: 	100%;
+	color: #000 !important;
+}
+.react-confirm-alert-body{
+	padding: 20px !important
+}
+.react-confirm-alert-body h1{
+	font-size: 1.5em !important;
+	margin-bottom: 10px !important;
+}
+.react-confirm-alert-button-group > button{
+	background: #7e7e7e !important;	
+	font-size: 15px !important;
+	padding: 10px 25px !important;
+}
+.react-confirm-alert-button-group > button:nth-child(2){
+	background: #007bff !important;
+}
+.react-confirm-alert-button-group{
+	float: right;
+}
+.process-col > button svg{
+    display: table-cell;
+}
+.process-col > button{
+    padding: 0px;
+    display: table;
+    height: 100%;
+}

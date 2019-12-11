@@ -1,0 +1,751 @@
+.add-token .add-token-body,
+.add-token .add-token-body>div {
+	padding: 10px 0px !important;
+}
+
+.add-token-body tbody tr {
+	font-size: 13px;
+}
+
+.add-token-body tbody tr:nth-of-type(even) {
+	background: white;
+}
+
+.add-token-body tbody tr:nth-of-type(odd) {
+	background: rgba(132, 132, 132, 0.08);
+}
+
+.table-center {
+	text-align: center;
+}
+
+.table-right {
+	text-align: right;
+}
+
+.moockup-tab .top30-table tbody tr:nth-of-type(even) {
+	background: white;
+}
+
+.moockup-tab .top30-table tbody tr:nth-of-type(odd) {
+	background: rgba(132, 132, 132, 0.08)
+}
+
+.moockup-tab .top30-table tbody tr:hover {
+	background: #ffe03f;
+}
+
+.moockup-tab .top30-table .table th {
+	text-align: center;
+}
+
+.moockup-tab .top30-table .table td,
+.table th {
+	font-size: 13px;
+	font-family: sans-serif;
+	padding: 5px;
+}
+
+.moockup-tab .top30-table table tbody td+td {
+	opacity: 0.8;
+}
+
+.moockup-tab .top30-table table tbody td.name {
+	text-align: left;
+	padding-left: 10px;
+}
+
+.moockup-tab .top30-table table tbody tr td:nth-child(2),
+.moockup-tab .top30-table table tbody tr td:nth-child(3) {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.moockup-tab .top30-table table tbody tr:hover td {
+	opacity: 1;
+	font-weight: bold;
+}
+
+.moockup-tab .top30-table table tbody td.rank,
+.moockup-tab .top30-table table tbody td.name {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.moockup-tab .top30-table table {
+	position: relative;
+	float: left;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+}
+
+.moockup-tab .top30-table {
+	height: 805px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+
+.moockup-tab .row {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.moockup-tab .tab-content .container-fluid>div {
+	padding: 0px;
+}
+
+.moockup-tab .tab-content .container-fluid {
+	padding: 0px;
+	position: relative;
+	float: left;
+}
+
+.moockup-tab .nav-item {
+	font-size: 13px;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 5px !important;
+}
+
+.moockup-tab .nav-tabs .nav-link.active {
+	margin-bottom: 0;
+	padding-bottom: 5px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	color: #2b82d9;
+	opacity: 1;
+	box-shadow: 4px -3px 5px -2px rgba(194, 194, 194, 1);
+	border: none !important;
+}
+
+
+/*moockup tab*/
+
+.moockup-tab .nav-tabs {
+	border-bottom: none;
+}
+
+.moockup-tab .nav-item {
+	line-height: 1em;
+}
+
+.moockup-tab .nav-item {
+	margin-bottom: -1px;
+	margin-right: 10px !important;
+	margin: 0 5px 5px 0;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+	color: #808080;
+	opacity: 0.8;
+}
+
+.moockup-tab {
+	margin-top: 30px;
+	background: #f6f6f6;
+	padding: 10px;
+}
+
+.moockup-tab>.tab-content .tab-pane {
+	width: 100%;
+}
+
+.moockup-tab>.tab-content {
+	width: 100%;
+	padding: 10px;
+	background: white;
+}
+
+.moockup-tab .top30-table .Table-Header>li:nth-child(10),
+.moockup-tab .top30-table .Table-Content >ul>li:nth-child(10) {
+	width: 10%;
+}
+
+.moockup-tab .top30-table .Table-Header>li:nth-child(9),
+.moockup-tab .top30-table .Table-Content >ul>li:nth-child(9) {
+	width: 10%;
+}
+
+.moockup-tab .top30-table .Table-Header>li:nth-child(8),
+.moockup-tab .top30-table .Table-Content >ul>li:nth-child(8) {
+	width: 10%;
+}
+
+.moockup-tab .top30-table .Table-Header>li:nth-child(7),
+.moockup-tab .top30-table .Table-Content >ul>li:nth-child(7) {
+	width: 10%;
+}
+
+.moockup-tab .top30-table .Table-Header>li:nth-child(6),
+.moockup-tab .top30-table .Table-Content >ul>li:nth-child(6) {
+	width: 13%;
+}
+
+.moockup-tab .top30-table .Table-Header>li:nth-child(5),
+.moockup-tab .top30-table .Table-Content >ul>li:nth-child(5) {
+	width: 18%;
+	border-right: none;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.moockup-tab .top30-table .Table-Footer li:nth-child(4),
+.moockup-tab .top30-table .Table-Header>li:nth-child(4),
+.moockup-tab .top30-table .Table-Content >ul>li:nth-child(4) {
+	width: 20%;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.moockup-tab .top30-table .Table-Header>li:nth-child(4),
+.moockup-tab .top30-table .Table-Header>li:nth-child(5) {
+	text-align: center;
+	padding: 0px;
+}
+
+.moockup-tab .top30-table .Table-Footer li:nth-child(3),
+.moockup-tab .top30-table .Table-Header>li:nth-child(3),
+.moockup-tab .top30-table .Table-Content >ul>li:nth-child(3) {
+	width: 50%;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.moockup-tab .top30-table .Table-Content li:nth-child(3) {
+	text-align: left;
+	padding-left: 10px;
+}
+
+.moockup-tab .top30-table .Table-Footer li:nth-child(2),
+.moockup-tab .top30-table .Table-Header>li:nth-child(2),
+.moockup-tab .top30-table .Table-Content >ul>li:nth-child(2) {
+	width: 10%;
+	font-weight: bold;
+}
+
+.moockup-tab .top30-table .Table-Footer li:nth-child(1),
+.moockup-tab .top30-table .Table-Header>li:nth-child(1),
+.moockup-tab .top30-table .Table-Content >ul>li:nth-child(1) {
+	width: 10%;
+	text-align: center;
+}
+
+.moockup-tab .top30-table .Table-Content > ul>li,
+.moockup-tab .top30-table .Table-Content > ul>li,
+.moockup-tab .top30-table .Table-Content-HasTable3 > ul>li {
+	list-style: none;
+	position: relative;
+	float: left;
+	border-right: 1px solid #dbdbdb;
+	padding: 0 2px;
+	line-height: 38px;
+}
+
+.moockup-tab .top30-table .Table-Header>li:last-child,
+.moockup-tab .top30-table .Table-Header-HasTable3>li:last-child,
+.moockup-tab .top30-table .Table-Footer>li:last-child,
+.moockup-tab .top30-table .Table-Footer-HasTable3>li:last-child {
+	border-right: none;
+}
+
+.moockup-tab .top30-table .Table-Header>li span,
+.moockup-tab .top30-table .Table-Header-HasTable3>li span,
+.moockup-tab .top30-table .Table-Footer>li span,
+.moockup-tab .top30-table .Table-Footer-HasTable3>li span {
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.moockup-tab .top30-table .Table-Header>li,
+.moockup-tab .top30-table .Table-Header-HasTable3>li,
+.moockup-tab .top30-table .Table-Footer>li,
+.moockup-tab .top30-table .Table-Footer-HasTable3>li {
+	list-style: none;
+	position: relative;
+	float: left;
+	text-align: center;
+	height: 100%;
+	display: table;
+	border: 1px solid transparent;
+}
+
+.moockup-tab .top30-table .Table-Header>li,
+.moockup-tab .top30-table .Table-Header-HasTable3>li,
+.moockup-tab .top30-table .Table-Footer>li,
+.moockup-tab .top30-table .Table-Footer-HasTable3>li {
+	border-right: 1px solid #dbdbdb
+}
+
+.moockup-tab .top30-table>div {
+	height: 805px;
+	width: 100%;
+}
+
+.moockup-tab .top30-table .Table-Header,
+.moockup-tab .top30-table .Table-Header-HasTable3 {
+	width: calc(100% - 16px);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	padding: 0px;
+	margin: 0px;
+	height: 40px;
+	background: #c0c0c082;
+	z-index: 1;
+
+}
+
+.moockup-tab .top30-table .Table-Footer,
+.moockup-tab .top30-table .Table-Footer-HasTable3 {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: calc(100% - 16px);
+	margin: 0px;
+	padding: 0px;
+	height: 38px;
+	background: #bebebe;
+	z-index: 1;
+}
+
+.moockup-tab .top30-table .Table-Content,
+.moockup-tab .top30-table .Table-Content-HasTable3 {
+	padding-top: 40px;
+	height: 760px;
+	width: 100%;
+	overflow-y: scroll;
+}
+
+.moockup-tab .top30-table .Table-Content > ul:nth-of-type(odd),
+.moockup-tab .top30-table .Table-Content-HasTable3 > ul:nth-of-type(odd) {
+	background: rgba(132, 132, 132, 0.08)
+}
+
+.moockup-tab .top30-table .Table-Content > ul:hover,
+.moockup-tab .top30-table .Table-Content-HasTable3 > ul:hover {
+	background: rgba(234, 248, 62, 0.69)
+}
+
+.moockup-tab .top30-table .Table-Content > ul,
+.moockup-tab .top30-table .Table-Content-HasTable3 > ul {
+	width: 100%;
+	position: relative;
+	float: left;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid #dbdbdb;
+	border-top: none;
+	height: 38px;
+}
+
+
+/*moockup tab :: end*/
+
+.moockup-tab .top30-table .Table-Footer-HasTable3 li:nth-child(8),
+.moockup-tab .top30-table .Table-Header-HasTable3>li:nth-child(8),
+.moockup-tab .top30-table .Table-Content-HasTable3 >ul>li:nth-child(8) {
+	width: 3%;
+}
+.moockup-tab .top30-table .Table-Footer-HasTable3 li:nth-child(7),
+.moockup-tab .top30-table .Table-Header-HasTable3>li:nth-child(7),
+.moockup-tab .top30-table .Table-Content-HasTable3 >ul>li:nth-child(7) {
+	width: 10%;
+	display: flex;
+}
+
+.moockup-tab .top30-table .Table-Header-HasTable3>li:nth-child(6),
+.moockup-tab .top30-table .Table-Content-HasTable3 >ul>li:nth-child(6) {
+	width: 30%;
+}
+.moockup-tab .top30-table .Table-Footer-HasTable3 li:nth-child(6){
+	width: 28%;
+}
+.moockup-tab .top30-table .Table-Header-HasTable3>li:nth-child(5) {
+	width: 15%;
+    text-align: right;
+}
+.moockup-tab .top30-table .Table-Footer-HasTable3 li:nth-child(5) {
+	width: 15%;
+}
+.moockup-tab .top30-table .Table-Content-HasTable3 ul>li:nth-child(5) {
+	width: 17%;
+}
+
+.moockup-tab .top30-table .Table-Content-HasTable3 >ul>li:nth-child(4) {
+	width: 5%;
+}
+.moockup-tab .top30-table .Table-Footer-HasTable3 li:nth-child(4) {
+	width: 11%;
+}
+.moockup-tab .top30-table .Table-Header-HasTable3>li:nth-child(4){
+	width: 9%;
+}
+.moockup-tab .top30-table .Table-Content-HasTable3 >ul>li:nth-child(4) {
+	width: 12%;
+	text-align: left;
+}
+
+.moockup-tab .top30-table .Table-Content-HasTable3 >ul>li:nth-child(3) {
+	width: 15%;
+	font-weight: bold;
+}
+.moockup-tab .top30-table .Table-Footer-HasTable3 li:nth-child(3) {
+	width: 14%;
+}
+.moockup-tab .top30-table .Table-Header-HasTable3>li:nth-child(3) {
+	width: 13.7%;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.moockup-tab .top30-table .Table-Content-HasTable3 >ul>li:nth-child(2) {
+	width: 20%;
+	font-weight: bold;
+}
+
+.moockup-tab .top30-table .Table-Footer-HasTable3 li:nth-child(2) {
+	width: 18%
+}
+.moockup-tab .top30-table .Table-Header-HasTable3>li:nth-child(2) {
+	width: 18%;
+    font-weight: bold;
+}
+.moockup-tab .top30-table .Table-Footer-HasTable3 li:nth-child(1)>div,
+.moockup-tab .top30-table .Table-Header-HasTable3>li:nth-child(1)>div,
+.moockup-tab .top30-table .Table-Content-HasTable3 >ul>li:nth-child(1)>div {
+	width: 100%;
+}
+
+.moockup-tab .top30-table .Table-Footer-HasTable3 li:nth-child(1),
+.moockup-tab .top30-table .Table-Header-HasTable3>li:nth-child(1),
+.moockup-tab .top30-table .Table-Content-HasTable3 >ul>li:nth-child(1) {
+	width: 5%;
+	text-align: center;
+	font-weight: bold;	
+}
+.moockup-tab .top30-table .Table-Content-HasTable3>ul {
+	display: flex;
+}
+.moockup-tab .top30-table .Table-Content-HasTable3 .add-new-coin, .moockup-tab .top30-add-token .add-new-coin{
+    position: absolute;
+    left: 10%;
+    font-weight: bold;
+    padding: 0px 15px;
+    top: 254px;
+    cursor: pointer;
+    line-height: 28px;
+    border: 2px solid #c3c3c3;
+    background: white;
+    border-radius: 20px;
+    color: gray;
+}
+
+.table-success {
+	background-color: #fdff00 !important;
+}
+
+
+/*moockup tab :: table 30 :: add token*/
+
+.table th,
+.table tr,
+.table td {
+	border-width: 1px !important;
+}
+
+.top30-add-token .table-bordered {
+	border: none;
+	margin-bottom: 0px;
+}
+
+.top30-add-token > div {
+	width: 100%;
+	padding: 0px;
+	overflow-x: scroll;
+	padding-bottom: 60px;
+	max-height: 750px;
+	min-height: 650px;
+}
+
+.top30-add-token {
+	padding: 0px;
+}
+
+.top30-token-header>li:nth-child(10),
+.top30-token-eachRow>li:nth-child(10) {
+	width: 3%;
+}
+
+.top30-token-header>li:nth-child(9),
+.top30-token-eachRow>li:nth-child(9) {
+	width: 12%;
+}
+
+.top30-token-header>li:nth-child(8),
+.top30-token-eachRow>li:nth-child(8) {
+	width: 15%;
+}
+
+.top30-token-header>li:nth-child(7),
+.top30-token-eachRow>li:nth-child(7) {
+	width: 10%;
+}
+
+.top30-token-header>li:nth-child(6),
+.top30-token-eachRow>li:nth-child(6) {
+	width: 10%;
+}
+
+.top30-token-header>li:nth-child(5),
+.top30-token-eachRow>li:nth-child(5) {
+	width: 10%;
+}
+
+.top30-token-header>li:nth-child(4),
+.top30-token-eachRow>li:nth-child(4) {
+	width: 15%;
+}
+
+.top30-token-header>li:nth-child(3),
+.top30-token-eachRow>li:nth-child(3) {
+	width: 10%;
+}
+
+.top30-token-header>li:nth-child(2),
+.top30-token-eachRow>li:nth-child(2) {
+	width: 12%;
+}
+.top30-token-eachRow>li:nth-child(2)>div{
+	width: 100% !important;
+	text-align: center !important;
+}
+
+.top30-token-eachRow {
+	border-top: none;
+}
+
+.top30-token-eachRow > li:nth-child(2) input {
+	border: none;
+}
+
+.top30-token-eachRow>li input,
+.top30-token-eachRow>li select {
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	border: none;
+	background: transparent;
+}
+
+.top30-token-header>li:nth-child(1),
+.top30-token-eachRow>li:nth-child(1) {
+	width: 3%;
+	text-align: center;
+}
+
+.top30-token-header>li {
+	text-align: center;
+	font-weight: bold;
+}
+
+.top30-token-eachRow:nth-child(odd) {
+	background: #f3f3f3;
+}
+
+.top30-token-eachRow .react-datepicker__current-month{
+	width: 100%;
+	font-size: 12px;
+}
+.top30-token-eachRow .react-datepicker {
+	width: 155px;
+	font-size: 1em !important;
+}
+
+.top30-token-eachRow>li,
+.top30-token-header>li {
+	list-style: none;
+	position: relative;
+	float: left;
+	border-right: 1px solid #dbdbdb;
+	height: 38px;
+	line-height: 38px;
+	box-sizing: border-box;
+}
+
+.top30-token-eachRow,
+.top30-token-header {
+	width: 100%;
+	position: relative;
+	float: left;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid #dbdbdb
+}
+
+
+/*moockup tab :: table 30 :: add token :: end*/
+.box3-token-view-content .display-PL span{
+	padding: 0px;
+}
+.box3-token-view-content .display-PL {
+	display: flex;
+	flex-wrap: wrap;
+}
+.box3-token-view-header > li:nth-child(6), .box3-token-view-content > li:nth-child(6) {
+	width: 25%;
+}
+.box3-token-view-header > li:nth-child(5), .box3-token-view-content > li:nth-child(5) {
+	width: 15%;
+}
+.box3-token-view-header > li:nth-child(4), .box3-token-view-content > li:nth-child(4) {
+	width: 13%;
+}
+.box3-token-view-header > li:nth-child(3), .box3-token-view-content > li:nth-child(3) {
+	width: 12%;
+}
+.box3-token-view-header > li:nth-child(2), .box3-token-view-content > li:nth-child(2) {
+	width: 32%;
+}
+.box3-token-view-header > li:nth-child(1), .box3-token-view-content > li:nth-child(1) {
+	width: 3%;
+}
+
+.box3-token-view-header > li, .box3-token-view-content > li{
+	list-style: none;
+	position: relative;
+	float: left;
+	border-right: 1px solid #dbdbdb;
+	height: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+.box3-token-view-header > li{
+	line-height: 40px !important;
+}
+.box3-token-view-content > li{
+	line-height: 38px !important;
+	text-transform: capitalize;
+}
+.box3-token-view-content{
+	background: #fdff00 !important;
+	height: 38px;
+}
+.box3-token-view-header{
+	height: 40px;
+}
+.box3-token-view, .box3-token-view-header, .box3-token-view-content{
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid #dbdbdb
+}
+.filterList-Div > ul > li{
+	position: relative;
+	float: left;
+	list-style: none;
+}
+.filterList-Div > ul{
+	position: relative;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+.filterList-Div{
+	width: 300px;
+	background: red;
+	max-height: 300px;
+	overflow: hidden;
+	position: absolute;	
+	top: 100%;
+}
+.add-block {
+	display: none;
+}
+.yellow-row {
+	background-color: yellow !important;
+}
+
+.box3-token-view-header > li, .box3-token-view-content > li{
+	list-style: none;
+	position: relative;
+	float: left;
+	border-right: 1px solid #dbdbdb;
+	height: 100%;
+	line-height: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+.box3-token-view-header > li, .box3-token-view-header > li span{
+	font-size: 15px !important	
+}
+
+
+.box3-token-view-content > li:nth-child(2){
+	text-align: left;
+	padding-left: 10px;
+	text-transform: uppercase; 
+}
+.box3-token-view-content{
+	background: #fdff00 !important;
+}
+.box3-token-view, .box3-token-view-header, .box3-token-view-content{
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid #dbdbdb;
+	padding-bottom: unset !important;
+	min-height: unset !important;
+	overflow: hidden !important;
+	overflow-x: unset;
+}
+.top30-add-token-log .eachRow, .top30-add-token-log .top30-token-header{
+	display: flex;
+	flex-wrap: wrap;
+}
+.top30-add-token-log .eachRow li input[name="blockExplorerLink"]{
+	color: 	blue;
+}
+.eachRow li span{
+	padding: 0px;
+}
+.top30-add-token-log .eachRow li input{
+	padding: 0px 3px;	
+}
+.top30-add-token-log .top30-token-header > li > span{
+	display: table-cell;
+	vertical-align: middle;
+}
+.top30-add-token-log .top30-token-header > li{
+	line-height: 18px !important;
+	padding: 2px 0px;
+	height: 40px;
+	display: table;
+}
+.top30-add-token-log .top30-token-header{
+	height: 40px !important;
+}
+.top30-add-token-log .eachRow > li:last-child{
+	border-right: none;
+}
+.centerDot div.col-lg-6:nth-child(2){
+    text-align: left;
+}
+.centerDot div.col-lg-6:nth-child(1){
+    text-align: right;
+}
+.centerDot, .centerDot div.col-lg-6{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}

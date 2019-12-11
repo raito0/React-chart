@@ -1,0 +1,89 @@
+
+.Autocomplete-div{
+  width: 100%;
+  position: relative;
+  float: left;
+  z-index: 99;
+}
+.Autocomplete-div .searchbox {
+  width: 100%;
+  padding: 0px;
+}
+.top30-token-eachRow input[type="search"] {
+  padding: 0px;
+  font-size: 13px;
+  text-align: left;
+  font-weight: bold;
+  color: #1f5350;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+.Autocomplete-div input[type="search"]::-webkit-input-placeholder {
+  color: #b1e0de;
+}
+.Autocomplete-div input[type="search"]:-moz-placeholder {
+  /* Firefox 18- */
+  color: #b1e0de;
+}
+.Autocomplete-div input[type="search"]::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #b1e0de;
+}
+.Autocomplete-div input[type="search"]:-ms-input-placeholder {
+  color: #b1e0de;
+}
+.Autocomplete-div li {
+  display: block;
+  text-decoration: none;
+  color: #1f5350;
+  font-size: 13px;
+  padding: 0 5px;
+  width: 100%;
+}
+.Autocomplete-div ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  background: #d9d9d9;
+  -webkit-box-shadow: 1px 7px 6px -4px rgba(0,0,0,0.54);
+  -moz-box-shadow: 1px 7px 6px -4px rgba(0,0,0,0.54);
+  box-shadow: 1px 7px 6px -4px rgba(0,0,0,0.54);
+  max-height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.Autocomplete-div ul li a:hover {
+  color: #b23b61;
+}
+.Autocomplete-div ul li:hover {
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
+  transform: translateX(10px);
+}
+.Autocomplete-div .suggestions li {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.Autocomplete-div input[type="search"]:focus + .suggestions li {
+  height: auto;
+  max-height: 120px;
+}
+
+.byline {
+  text-align: center;
+  font-size: 13px;
+}
+.byline a {
+  text-decoration: none;
+  color: #1f5350;
+}

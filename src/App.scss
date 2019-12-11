@@ -1,0 +1,29 @@
+.normal{
+    text-decoration: none;
+    border: 1px solid #948b84;
+    border-radius: 12px;
+    padding: 3px;
+    &:hover {
+        text-decoration: none;
+        color: black
+    }
+    &:active {
+        text-decoration: none;
+    }
+}
+
+.active {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #948b84;
+    border-radius: 12px;
+    padding: 3px;
+    background-color: #007BFF;
+    &:hover {
+        text-decoration: none;
+        color: black
+    }
+    &:active {
+        text-decoration: none;
+    }
+}

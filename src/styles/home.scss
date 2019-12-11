@@ -1,0 +1,15 @@
+.login-block {
+    display: none;
+}
+.top-30-token-wrapper, .indexes-table-wrapper{
+    width: calc(100% - 800px);
+    height: 805px;
+    overflow: hidden
+}
+.tv-chart-wrapper{
+    width: 800px;
+    height: 805px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: 2px solid darkgrey
+}

@@ -1,0 +1,35 @@
+.SearchResult .form-group{
+    padding: 0px;
+    margin: 0px;
+    background: white;
+    border: 1px solid #bababa !important;
+    border-radius: 15px;
+    height: 28px;
+}
+.SearchResult .form-group > button svg{
+    width: 22px;
+    height: 22px;
+}
+.SearchResult .form-group > button span{
+    fill: currentColor;
+    line-height: 24px;
+    color: silver;
+}
+.SearchResult .form-group > button{
+    position: relative;
+    float: left;
+    background: transparent;
+    border: none;
+    width: 32px;
+    height: 28px;
+}
+.SearchResult .form-group > input{
+    position: relative;
+    float: left;
+    width: calc(100% - 32px);
+    color: #bababa;
+    background: transparent;
+    height: 100%;
+    line-height: 100%;
+    border: none;
+}

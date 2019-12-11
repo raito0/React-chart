@@ -1,0 +1,14 @@
+.home-user-button .dropdown-item + .dropdown-item{
+	border-top: 1px solid #f3f3f3;
+}
+.home-user-button .dropdown-item{
+	font-size: 14px;
+	padding: 5px 30px 5px 20px;
+}
+.home-user-button .dropdown-item:hover{
+	background: #f1f1f1;
+	color: #0044b2;
+}
+.home-user-button .dropdown-menu{
+	background: #fff;
+}

@@ -1,0 +1,12 @@
+.tv-control-fieldset {
+    display: block;
+    margin-bottom: 30px;
+    min-width: 0;
+    .fieldset-label{
+        padding: 10px 20px 0 0;
+        width: 30%;
+        font-size: 13px;
+        color: #adaeb0;
+        clear: left;
+    }
+}
